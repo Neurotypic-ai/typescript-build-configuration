@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
+  },
+  "exclude": ["node_modules", "**/node_modules/**/*", "**/dist/**/*", "**/node_modules/.pnpm/**/*"],
+  "extends": "@neurotypic-ai/typescript-config/config/base.json",
+  "include": ["./scripts/**/*.ts", "eslint.config.ts"]
+}

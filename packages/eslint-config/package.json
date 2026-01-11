@@ -1,0 +1,50 @@
+{
+  "description": "Shared ESLint configuration for Neurotypic-ai",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@eslint/markdown": "^7.5.1",
+    "@types/eslint": "^9.6.1",
+    "@types/eslint-plugin-jsx-a11y": "^6.10.1",
+    "@types/node": "^24.10.4",
+    "@typescript-eslint/eslint-plugin": "^8.51.0",
+    "@typescript-eslint/parser": "^8.51.0",
+    "@typescript-eslint/types": "^8.51.0",
+    "@typescript-eslint/utils": "^8.51.0",
+    "@vitest/eslint-plugin": "^1.6.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import-x": "^4.16.1",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-playwright": "^2.4.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-testing-library": "^7.15.3",
+    "eslint-plugin-vue": "~10.6.2",
+    "eslint-plugin-vuejs-accessibility": "^2.4.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.51.0",
+    "vue-eslint-parser": "~10.2.0"
+  },
+  "exports": {
+    ".": "./src/config/index.ts",
+    "./rules/*": "./src/rules/*.ts"
+  },
+  "files": [
+    "./src/**/*.ts"
+  ],
+  "license": "MIT",
+  "main": "./src/config/index.ts",
+  "name": "@neurotypic-ai/eslint-config",
+  "peerDependencies": {
+    "eslint": "^9.39.1",
+    "typescript": "~5.9.3"
+  },
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf node_modules && rm -rf dist && rm -f .eslintcache"
+  },
+  "type": "module",
+  "version": "5.0.0"
+}
