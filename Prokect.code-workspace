@@ -1,27 +1,19 @@
 {
   "extensions": {
     "recommendations": [
-      "antfu.vite",
       "austenc.tailwind-docs",
       "bradlc.vscode-tailwindcss",
       "dbaeumer.vscode-eslint",
       "esbenp.prettier-vscode",
       "redhat.vscode-yaml",
       "vue.volar",
-      "vitest.explorer",
-      "vscjava.vscode-java-dependency",
       "yoavbls.pretty-ts-errors",
       "csstools.postcss",
       "davidanson.vscode-markdownlint",
       "bierner.markdown-mermaid",
-      "redhat.java",
       "wix.vscode-import-cost",
       "ms-vscode.hexeditor",
-      "vscjava.vscode-gradle",
-      "vscjava.vscode-java-pack",
-      "pomdtr.excalidraw-editor",
-      "editorconfig.editorconfig",
-      "anthropic.claude-code"
+      "pomdtr.excalidraw-editor"
     ]
   },
   "folders": [
@@ -202,7 +194,9 @@
       "titleBar.activeBackground": "#192b57",
       "titleBar.activeForeground": "#e7e7e7",
       "titleBar.inactiveBackground": "#192b5799",
-      "titleBar.inactiveForeground": "#e7e7e799"
+      "titleBar.inactiveForeground": "#e7e7e799",
+      "statusBar.debuggingBackground": "#574519",
+      "statusBar.debuggingForeground": "#e7e7e7"
     },
     "prettier.useEditorConfig": false,
     "Laravel.basePath": "apps/backend",
